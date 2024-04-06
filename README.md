@@ -1,16 +1,34 @@
-# my_task_tracker_project
+Flutter Task Tracker
+Flutter Task Tracker is a simple task tracking application built using Flutter, allowing users to manage their tasks efficiently.
 
-A new Flutter project.
+Features
+Display a list of tasks with titles and descriptions.
+Add new tasks with titles and descriptions.
+Mark tasks as completed.
+Delete tasks.
+Requirements
+Flutter SDK installed on your machine. You can follow the installation instructions here.
+An IDE or text editor of your choice (e.g., Visual Studio Code, Android Studio).
+Emulator or physical device to run the application.
+Getting Started
+Clone the Repository:
 
-## Getting Started
+bash
+Copy code
 
-This project is a starting point for a Flutter application.
+git clone https://github.com/your_username/flutter_task_tracker.git
+Navigate to the Project Directory:
 
-A few resources to get you started if this is your first Flutter project:
+bash
+Copy code
+cd flutter_task_tracker
+Run the Application:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Connect your emulator or physical device, and run the following command to start the app:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+arduino
+Copy code
+flutter run
+Interact with the Application:
+
+Once the app is running, you can add new tasks by providing a title and description. Tasks can be marked as completed by tapping the checkbox or deleted by tapping the delete button.
